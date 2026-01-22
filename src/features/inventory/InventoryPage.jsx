@@ -7,7 +7,7 @@ const InventoryPage = () => {
 
   const fabrics = [
     {
-      image: '/images/gray-cotton-fabric.jpg',
+      image: 'https://res.cloudinary.com/dvq9u981t/image/upload/v1769075940/Image/Dinosaur/p5xu90w3mM2mpFOvezeZw6XI5ii9cwEDuKujJJvK.jpg',
       name: 'Vải Len Super 150 Xám Than',
       mill: 'Xưởng: Vitale Barberis Canonico',
       origin: 'Biella, Ý',
@@ -16,7 +16,7 @@ const InventoryPage = () => {
       uses: ['Vest', 'Quần Tây']
     },
     {
-      image: '/images/a5f74192-f34d-4696-8f81-b84c39f530d4.jpg',
+      image: 'https://res.cloudinary.com/dvq9u981t/image/upload/v1769076006/Image/Dinosaur/16274c800a793599f2a5258c0cd5e0b1.jpg',
       name: 'Cashmere Navy Đêm',
       mill: 'Xưởng: Loro Piana',
       origin: 'Quarona, Ý',
@@ -25,7 +25,7 @@ const InventoryPage = () => {
       uses: ['Măng Tô']
     },
     {
-      image: '/images/still-life-waving-fabric-air.jpg',
+      image: 'https://res.cloudinary.com/dvq9u981t/image/upload/v1769076069/Image/Dinosaur/images.jpg',
       name: 'Lụa Habotai Ngà',
       mill: 'Xưởng: Pongees',
       origin: 'Lyon, Pháp',
@@ -34,7 +34,7 @@ const InventoryPage = () => {
       uses: ['Lót', 'Sơ Mi']
     },
     {
-      image: '/images/preview.jpg',
+      image: 'https://res.cloudinary.com/dvq9u981t/image/upload/v1769075687/preview.jpg',
       name: 'Len Saxony Glen Plaid',
       mill: 'Xưởng: Holland & Sherry',
       origin: 'Peebles, Scotland',
