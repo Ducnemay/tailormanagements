@@ -194,7 +194,7 @@ const DashboardPage = () => {
             {/* Recent Commissions - Takes 2 columns */}
             <div className="lg:col-span-2">
               <div className="flex justify-between items-center mb-6">
-                <h2 className="text-3xl font-serif text-gray-900">
+                <h2 className="text-3xl font-sans text-gray-900">
                   Đơn Hàng Gần Đây
                 </h2>
                 <button className="text-sm text-amber-700 hover:text-amber-800 uppercase tracking-wider font-medium transition-colors">

@@ -11,7 +11,7 @@ const menuItems = [
   { id: 'dashboard', label: 'DASHBOARD', icon: LayoutDashboard, path: '/dashboard' },
   { id: 'clients', label: 'CLIENTS', icon: User, path: '/clients' },
   { id: 'appointments', label: 'APPOINTMENTS', icon: Calendar, path: '/appointments' },
-  { id: 'inventory', label: 'INVENTORY', icon: Package, path: '/inventory' },
+  // { id: 'inventory', label: 'INVENTORY', icon: Package, path: '/inventory' },
   { id: 'reports', label: 'REPORTS', icon: BarChart3, path: '/reports' },
 ]
 
@@ -20,13 +20,27 @@ export default function Sidebar() {
     <div className="w-64 bg-[#1a2332] min-h-screen text-white flex flex-col">
 
       {/* Logo */}
-      <div className="p-8 border-b border-gray-700">
-        <h1 className="text-2xl font-serif tracking-wider">MAISON</h1>
-        <h1 className="text-2xl font-serif tracking-wider">TAILLEUR</h1>
-        <p className="text-xs text-gray-400 mt-2 tracking-widest">
-          ADMINISTRATION DE LUXE
-        </p>
-      </div>
+     <div className="p-8 border-b border-gray-700">
+  <div className="flex items-center gap-4 mb-4">
+    <div className="w-12 h-12 bg-gray-900 rounded-xl flex items-center justify-center ring-1 ring-gray-700">
+      <img
+        src="https://res.cloudinary.com/dvq9u981t/image/upload/v1769161593/Image/Dinosaur/1d0b27fbfdb173ef2aa0.jpg"
+        alt="Duan Tailor Logo"
+        className="w-9 h-9 object-contain"
+      />
+    </div>
+
+    <div className="leading-none">
+      <h1 className="text-xl font-serif tracking-wider">Duan</h1>
+      <h1 className="text-xl font-serif tracking-wider">Tailor</h1>
+    </div>
+  </div>
+
+  <p className="text-xs text-gray-400 tracking-widest">
+    QUẢN TRỊ CAO CẤP
+  </p>
+</div>
+
 
       {/* Menu */}
       <nav className="flex-1 py-4">

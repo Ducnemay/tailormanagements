@@ -21,7 +21,7 @@ const LoginPage = () => {
         <div 
           className="absolute inset-0 bg-cover bg-center"
           style={{
-            backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)), url('https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=1200')`
+            backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)), url('https://res.cloudinary.com/dvq9u981t/image/upload/v1769161887/Image/Dinosaur/IMG_5452.jpg')`
           }}
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent" />
@@ -43,15 +43,19 @@ const LoginPage = () => {
           {/* Header */}
           <div className="mb-14 text-center md:text-left">
             <div className="flex items-center justify-center md:justify-start gap-3 mb-8">
-              <div className="w-10 h-10 bg-gray-900 rounded flex items-center justify-center">
-                <span className="text-amber-600 text-2xl font-serif">MT</span>
-              </div>
+             <div className="w-10 h-10 bg-gray-900 rounded flex items-center justify-center ring-1 ring-gray-700">
+  <img
+    src="https://res.cloudinary.com/dvq9u981t/image/upload/v1769161593/Image/Dinosaur/1d0b27fbfdb173ef2aa0.jpg"
+    alt="Duan Tailor Logo"
+    className="w-8 h-8 object-contain"
+  />
+</div>
               <div className="flex flex-col">
                 <span className="text-[10px] tracking-[0.4em] uppercase font-medium text-gray-900 opacity-60">
-                  Maison de Haute Couture
+                 Duan Tailor
                 </span>
                 <span className="text-xs tracking-[0.2em] uppercase font-bold text-gray-900">
-                  Hà Nội • TP HCM • Đà Nẵng
+                 Thành Phố Hồ Chí Minh
                 </span>
               </div>
             </div>

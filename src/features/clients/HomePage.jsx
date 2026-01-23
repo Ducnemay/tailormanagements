@@ -36,14 +36,20 @@ const HomePage = () => {
       <header className="fixed top-0 w-full z-50 bg-[#fdfbf7]/90 backdrop-blur-md border-b border-gray-200 px-4 md:px-12 py-4">
         <div className="max-w-[1440px] mx-auto flex items-center justify-between">
           <div className="flex items-center gap-12">
-            <div className="flex items-center gap-2">
-              <div className="w-8 h-8 bg-amber-700 rounded flex items-center justify-center">
-                <span className="text-white font-serif text-lg">DT</span>
-              </div>
-              <h1 className="text-gray-900 text-xl font-bold tracking-widest font-serif">
-                DUAN TAILOR
-              </h1>
-            </div>
+         <div className="flex items-center gap-4">
+  <div className="w-16 h-16 bg-white rounded-2xl flex items-center justify-center ring-1 ring-gray-200 shadow-sm">
+    <img
+      src="https://res.cloudinary.com/dvq9u981t/image/upload/v1769161593/Image/Dinosaur/1d0b27fbfdb173ef2aa0.jpg"
+      alt="Duan Tailor Logo"
+      className="w-14 h-14 object-contain"
+    />
+  </div>
+
+  <h1 className="text-gray-900 text-2xl font-semibold tracking-[0.25em] font-serif">
+    DUAN TAILOR
+  </h1>
+</div>
+
             <nav className="hidden lg:flex gap-8">
               <a href="#about" className="text-gray-900 text-[10px] font-bold uppercase tracking-[0.2em] hover:text-amber-700 transition-colors">
                 Về DUAN
@@ -76,7 +82,7 @@ const HomePage = () => {
           <div className="absolute inset-0 z-0">
             <div className="absolute inset-0 bg-black/40 z-10"></div>
             <img
-              src="https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=1600"
+              src="https://res.cloudinary.com/dvq9u981t/image/upload/v1769161887/Image/Dinosaur/IMG_5452.jpg"
               alt="Nghệ nhân may đo"
               className="w-full h-full object-cover"
             />
@@ -217,7 +223,7 @@ const HomePage = () => {
           <div className="max-w-[1440px] mx-auto px-6 md:px-12">
             <div className="flex flex-col md:flex-row justify-between items-baseline mb-16 gap-4">
               <div>
-                <span className="text-amber-700 text-[10px] font-bold uppercase tracking-[0.4em] block mb-4">
+                <span className="text-amber-700 text-[15px] font-bold uppercase tracking-[0.4em] block mb-4">
                   Dịch Vụ Cao Cấp
                 </span>
                 <h2 className="text-gray-900 text-4xl md:text-5xl font-light font-serif italic">
@@ -269,7 +275,7 @@ const HomePage = () => {
         <section className="py-24 bg-[#fdfbf7] overflow-hidden">
           <div className="max-w-[1440px] mx-auto px-6 md:px-12">
             <div className="text-center mb-20">
-              <span className="text-amber-700 text-[10px] font-bold uppercase tracking-[0.4em] block mb-4">
+              <span className="text-amber-700 text-[15px] font-bold uppercase tracking-[0.4em] block mb-4">
                 Nghệ Thuật Thủ Công
               </span>
               <h2 className="text-gray-900 text-4xl md:text-5xl font-light font-serif">
@@ -310,7 +316,7 @@ const HomePage = () => {
               />
             </div>
             <div className="order-1 lg:order-2">
-              <span className="text-amber-700 text-[10px] font-bold uppercase tracking-[0.4em] block mb-6">
+              <span className="text-amber-700 text-[15px] font-bold uppercase tracking-[0.4em] block mb-6">
                 Nghệ Nhân May Đo
               </span>
               <h2 className="text-gray-900 text-4xl md:text-5xl font-light mb-8 font-serif leading-tight italic">
@@ -329,7 +335,7 @@ const HomePage = () => {
               </div>
               <div className="mt-12 flex items-center gap-6">
                 <div className="w-12 h-px bg-amber-700"></div>
-                <p className="text-xl font-serif italic">"Mỗi mũi khâu là một lời cam kết về chất lượng."</p>
+                <p className="text-xl font-sans italic">"Mỗi mũi khâu là một lời cam kết về chất lượng."</p>
               </div>
             </div>
           </div>
@@ -339,7 +345,7 @@ const HomePage = () => {
         <section className="py-24 bg-[#fdfbf7]">
           <div className="max-w-[1440px] mx-auto px-6 md:px-12">
             <div className="text-center mb-20">
-              <span className="text-amber-700 text-[10px] font-bold uppercase tracking-[0.4em] block mb-4">
+              <span className="text-amber-700 text-[15px] font-bold uppercase tracking-[0.4em] block mb-4">
                 Kiến Thức Thời Trang
               </span>
               <h2 className="text-gray-900 text-4xl md:text-5xl font-light font-serif italic mb-6">
@@ -433,7 +439,7 @@ const HomePage = () => {
               <div className="group cursor-pointer">
                 <div className="relative overflow-hidden aspect-[4/3] mb-4">
                   <img
-                    src="https://res.cloudinary.com/dvq9u981t/image/upload/v1769155638/Image/Dinosaur/dia-chi-may-vest-dep-tphcm-duan-tailor-00.jpg"
+                    src="https://res.cloudinary.com/dvq9u981t/image/upload/v1769162076/Image/Dinosaur/DUAN._PREMIUM_14_-_Photo.jpg"
                     alt="Top Nhà May Vest"
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
                   />
@@ -515,7 +521,7 @@ const HomePage = () => {
         <section className="py-24 bg-[#f5f5f0]">
           <div className="max-w-[1440px] mx-auto px-6 md:px-12">
             <div className="text-center mb-20">
-              <span className="text-amber-700 text-[10px] font-bold uppercase tracking-[0.4em] block mb-4">
+              <span className="text-amber-700 text-[15px] font-bold uppercase tracking-[0.4em] block mb-4">
                 Đánh Giá Từ Khách Hàng
               </span>
               <h2 className="text-gray-900 text-4xl md:text-5xl font-light font-serif italic">
@@ -558,7 +564,7 @@ const HomePage = () => {
           <div className="max-w-[1200px] mx-auto px-6">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-20 items-start">
               <div>
-                <span className="text-amber-700 text-[10px] font-bold uppercase tracking-[0.4em] block mb-6">
+                <span className="text-amber-700 text-[15px] font-bold uppercase tracking-[0.4em] block mb-6">
                   Liên Hệ Đặt Lịch
                 </span>
                 <h2 className="text-gray-900 text-5xl md:text-6xl font-light font-sans mb-8">

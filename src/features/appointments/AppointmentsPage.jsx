@@ -204,7 +204,7 @@ const AppointmentsPage = () => {
                         {item.time} — {item.type}
                       </span>
                       <div>
-                        <h4 className="text-xl font-serif italic text-gray-900">
+                        <h4 className="text-xl font-sans italic text-gray-900">
                           {item.client}
                         </h4>
                         <p className="text-xs text-gray-400 uppercase tracking-wider mt-1">
