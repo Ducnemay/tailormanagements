@@ -6,6 +6,7 @@ import InventoryPage from '@/features/inventory/InventoryPage'
 import ReportsPage from '@/features/reports/ReportsPage'
 import LoginPage from '@/features/auth/pages/LoginPage'
 import RegisterPage from '@/features/auth/pages/RegisterPage'
+import HomePage from '@/features/clients/HomePage'
 // import LoginPage from '@/pages/LoginPage'
 
 
@@ -59,10 +60,17 @@ export default function AppRoutes() {
                 }
             />
 
+ <Route
+                path="/home"
+                element={
 
+                    <HomePage />
+
+                }
+            />
 
             {/* Default */}
-            <Route path="/" element={<Navigate to="/dashboard" replace />} />
+            <Route path="/" element={<Navigate to="/home" replace />} />
             <Route path="*" element={<Navigate to="/dashboard" replace />} />
 
         </Routes>

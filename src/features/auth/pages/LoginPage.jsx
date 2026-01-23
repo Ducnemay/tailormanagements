@@ -1,14 +1,16 @@
 import React, { useState } from 'react';
 import { ArrowRight } from 'lucide-react';
+import { useNavigate } from 'react-router-dom'
 
 const LoginPage = () => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [rememberMe, setRememberMe] = useState(false);
-
+ const navigate = useNavigate()
   const handleSubmit = (e) => {
     e.preventDefault();
     // Handle login logic here
+     navigate('/dashboard')
     console.log('Login attempt:', { email, password, rememberMe });
   };
 
